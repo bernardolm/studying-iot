@@ -1,0 +1,16 @@
+[Unit]
+Description=MQTT
+Requires=docker.service
+After=docker.service
+
+[Service]
+Restart=always
+RestartSec=3
+ExecStart=/bin/sh /home/%i/mqtt/run.sh %i
+ExecStop=/usr/bin/docker stop -t 2 mqtt
+ExecStopPost=/usr/bin/docker rm -f mqtt
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target

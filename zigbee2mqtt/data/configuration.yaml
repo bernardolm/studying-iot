@@ -1,0 +1,29 @@
+homeassistant: true
+
+permit_join: true
+
+mqtt:
+  base_topic: zigbee2mqtt
+  client_id: 'zigbee2mqtt_client'
+  discovery: true
+  include_device_information: true
+  password: !secret mqtt_password
+  server: 'mqtt://172.17.0.1'
+  user: !secret mqtt_username
+
+serial:
+  disable_led: true
+  port: /dev/ttyACM0
+
+devices:
+  '0x00158d0001d826fd':
+    friendly_name: 'temp'
+    retain: false
+  '0x00158d00016cd899':
+    friendly_name: 'door'
+    retain: false
+
+advanced:
+  log_directory: data/log/%TIMESTAMP%
+  log_level: info
+  report: true

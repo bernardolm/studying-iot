@@ -1,0 +1,34 @@
+{
+    "data": {
+        "config": {
+            "title": "Verdant",
+            "views": [
+                {
+                    "badges": [
+                        "binary_sensor.updater",
+                        "binary_sensor.0x00158d00016cd899_contact",
+                        "person.bernardo",
+                        "sensor.0x00158d00016cd899_battery",
+                        "sensor.0x00158d00016cd899_linkquality",
+                        "sensor.0x00158d0001d826fd_temperature",
+                        "sensor.0x00158d0001d826fd_humidity",
+                        "sensor.0x00158d0001d826fd_pressure",
+                        "sensor.0x00158d0001d826fd_battery",
+                        "sensor.0x00158d0001d826fd_linkquality",
+                        "sun.sun"
+                    ],
+                    "cards": [
+                        {
+                            "entity": "weather.home",
+                            "type": "weather-forecast"
+                        }
+                    ],
+                    "path": "default_view",
+                    "title": "Home"
+                }
+            ]
+        }
+    },
+    "key": "lovelace",
+    "version": 1
+}

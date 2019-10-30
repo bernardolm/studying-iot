@@ -1,0 +1,16 @@
+[Unit]
+Description=zigbee2mqtt
+Requires=docker.service,mqtt.service
+After=docker.service,mqtt.service
+
+[Service]
+Restart=always
+RestartSec=3
+ExecStart=/bin/sh /home/%i/zigbee2mqtt/run.sh %i
+ExecStop=/usr/bin/docker stop -t 2 zigbee2mqtt
+ExecStopPost=/usr/bin/docker rm -f zigbee2mqtt
+Restart=on-failure
+RestartSec=5s
+
+[Install]
+WantedBy=multi-user.target

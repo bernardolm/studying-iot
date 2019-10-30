@@ -1,0 +1,107 @@
+{
+    "data": {
+        "entities": [
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "binary_sensor.updater",
+                "name": null,
+                "platform": "updater",
+                "unique_id": "updater"
+            },
+            {
+                "config_entry_id": "77b00ca6ad5c4d4e920e8cc42f94637d",
+                "device_id": "309103a7dbff49d8a1a076a43ed84d94",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001d826fd_temperature",
+                "name": "temp_temperature",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001d826fd_temperature_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "77b00ca6ad5c4d4e920e8cc42f94637d",
+                "device_id": "309103a7dbff49d8a1a076a43ed84d94",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001d826fd_humidity",
+                "name": "temp_humidity",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001d826fd_humidity_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "77b00ca6ad5c4d4e920e8cc42f94637d",
+                "device_id": "309103a7dbff49d8a1a076a43ed84d94",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001d826fd_pressure",
+                "name": "temp_pressure",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001d826fd_pressure_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "77b00ca6ad5c4d4e920e8cc42f94637d",
+                "device_id": "309103a7dbff49d8a1a076a43ed84d94",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001d826fd_battery",
+                "name": "temp_battery",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001d826fd_battery_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "77b00ca6ad5c4d4e920e8cc42f94637d",
+                "device_id": "309103a7dbff49d8a1a076a43ed84d94",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d0001d826fd_linkquality",
+                "name": "temp_linkquality",
+                "platform": "mqtt",
+                "unique_id": "0x00158d0001d826fd_linkquality_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "77b00ca6ad5c4d4e920e8cc42f94637d",
+                "device_id": "65ec3e95fbe444b1854f9cb7e78793e1",
+                "disabled_by": null,
+                "entity_id": "binary_sensor.0x00158d00016cd899_contact",
+                "name": "door:status",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00016cd899_contact_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "77b00ca6ad5c4d4e920e8cc42f94637d",
+                "device_id": "65ec3e95fbe444b1854f9cb7e78793e1",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d00016cd899_battery",
+                "name": "door:battery",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00016cd899_battery_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": "77b00ca6ad5c4d4e920e8cc42f94637d",
+                "device_id": "65ec3e95fbe444b1854f9cb7e78793e1",
+                "disabled_by": null,
+                "entity_id": "sensor.0x00158d00016cd899_linkquality",
+                "name": "door:linkquality",
+                "platform": "mqtt",
+                "unique_id": "0x00158d00016cd899_linkquality_zigbee2mqtt"
+            },
+            {
+                "config_entry_id": null,
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "person.bernardo",
+                "name": null,
+                "platform": "person",
+                "unique_id": "ca23145ab54f45e3acbd345206a6a4de"
+            },
+            {
+                "config_entry_id": "410339e4a4374458a01fd465aac2391d",
+                "device_id": null,
+                "disabled_by": null,
+                "entity_id": "weather.home",
+                "name": null,
+                "platform": "met",
+                "unique_id": "-22.9705935--43.4235236"
+            }
+        ]
+    },
+    "key": "core.entity_registry",
+    "version": 1
+}

@@ -1,0 +1,25 @@
+{
+    "data": [
+        {
+            "last_seen": "2019-10-03T05:45:36.646928+00:00",
+            "state": {
+                "attributes": {
+                    "editable": true,
+                    "friendly_name": "Bernardo",
+                    "id": "ca23145ab54f45e3acbd345206a6a4de"
+                },
+                "context": {
+                    "id": "391c15f152654d88a26825c931bab106",
+                    "parent_id": null,
+                    "user_id": null
+                },
+                "entity_id": "person.bernardo",
+                "last_changed": "2019-10-03T03:58:52.620743+00:00",
+                "last_updated": "2019-10-03T03:58:57.552026+00:00",
+                "state": "unknown"
+            }
+        }
+    ],
+    "key": "core.restore_state",
+    "version": 1
+}

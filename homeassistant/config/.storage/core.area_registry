@@ -1,0 +1,16 @@
+{
+    "data": {
+        "areas": [
+            {
+                "id": "4b5f5efe16464319aa35070904062cbd",
+                "name": "Sala de estar"
+            },
+            {
+                "id": "aa746eb942974c428a901a4bcb4eaebc",
+                "name": "Varanda"
+            }
+        ]
+    },
+    "key": "core.area_registry",
+    "version": 1
+}

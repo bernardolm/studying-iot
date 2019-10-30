@@ -1,0 +1,43 @@
+# hassio:
+default_config:
+
+tts:
+  - platform: google_translate
+
+homeassistant:
+  elevation: 14
+  latitude: -22.9679435
+  longitude: -43.448248
+  name: camorim
+  time_zone: America/Sao_Paulo
+  unit_system: metric
+
+updater:
+  include_used_components: true
+
+history:
+  include:
+    domains:
+      - binary_sensor
+      - cover
+      - light
+      - media_player
+      - sensor
+      - switch
+
+mqtt:
+  birth_message:
+    topic: 'hass/status'
+    payload: 'online'
+  broker: 172.17.0.1
+  client_id: homeassistant_client
+  discovery: true
+  password: !secret mqtt_password
+  username: !secret mqtt_username
+  will_message:
+    topic: 'hass/status'
+    payload: 'offline'
+
+group: !include groups.yaml
+automation: !include automations.yaml
+script: !include scripts.yaml

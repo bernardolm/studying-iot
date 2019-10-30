@@ -102,3 +102,17 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# personal
+homeassistant/config/.storage/auth_provider.homeassistant
+homeassistant/config/home-assistant_v2.db
+homeassistant/config/secrets.yaml
+mqtt/config/passwords.txt
+mqtt/data/mosquitto.db
+zigbee2mqtt/data/database.db
+zigbee2mqtt/data/secrets.yaml
+homeassistant/config/.uuid
+homeassistant/config/.storage/auth
+homeassistant/config/.storage/core.config
+homeassistant/config/.storage/core.config_entries
+homeassistant/config/.storage/person
